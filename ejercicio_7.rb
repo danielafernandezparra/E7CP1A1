@@ -41,7 +41,7 @@ def opcion_3(inv)
   actualizando = "Actualizando item: #{item}\n"
   no_existe = "No existe el item: #{item}\n"
   print inv.include?(item.first) ? actualizando : no_existe
-  inv[item.first] = item.last.to_i if inv.inlude?(item.first)
+  inv[item.first] = item.last.to_i if inv.include?(item.first)
   print "\n\n"
   print inv
   print "\n\n"
